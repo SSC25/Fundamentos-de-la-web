@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="/url-a-la-que-mandamos" method="post">
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" maxlength="20"><br><br>
+            <label>Apellido:</label>
+            <input type="text" name="nombre" maxlength="20"><br><br>
+            <label>Email:</label>
+            <input type="email" name="correo" placeholder="name@gmail.com"><br><br>
+            <label>Contraseña:</label>
+            <input type="password" name="contra "><br><br>
+            <label>Confirmar contraseña:</label>
+            <input type="password" name="contra "><br><br>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="fecha"><br>
+        </div>
+        <div>
+            <p>Genero:</p>
+            <label for="id_masculino">Masculino</label>
+            <input type="radio" name="genero" value="masculino" id="id_masculino">
+            <label for="id_femenino">Femenino</label>
+            <input type="radio" name="genero" value="femenino" id="id_femenino">
+            <label for="id_otro">Otro</label>
+            <input type="radio" name="genero" value="otro" id="id_otro">
+            
+        </div>
+        <!--<div>
+            <input type="checkbox"name="terminos_condiciones" id="terminos">
+            <label for="terminos">Acepto Terminos y Condiciones<a href=www.google.com>Ver</a></label>
+        </div>-->
+        <div>
+            <p>Una breve descripción de ti:</p>
+            <textarea name="descripcion" cols="25" rows="10" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloribus, quos quisquam laborum quod a animi nostrum et maxime? Dolore magnam assumenda sed dolorum eum, aliquam rerum sint sit. Tenetur"></textarea>
+        </div>
+        <div>
+            <label>Lenguaje favorito:</label>
+            <select name="lenguaje" >
+                <option>Javascript</option>
+                <option>Chino</option>
+                <option>Mandarin</option>
+                <option>Ingles</option>
+                <option>Español</option>
+            </select>
+            
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar Formulario">
+        </div>
+
+    </form>
+</body>
+</html>    

@@ -1,0 +1,112 @@
+<!DOCTYPE html> ><!--documento html 5 (version) -->
+<html lang="en"><!--lenguaje-->
+<head>
+    <meta charset="UTF-8"><!--codificacion incluye acentos, tildes,ñ,etc-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro a HTML</title><!--titulo de la pestaña del navegador-->
+</head>
+<body>
+    <h1>Titulo 1</h1>
+    <h2>Titulo 1</h2>
+    <h3>Titulo 1</h3>
+    <h4>Titulo 1</h4>
+    <h5>Titulo 1</h5>
+    <h6>Titulo 1</h6>
+
+    <p>
+        Este es un párrafo para nuestro sitio web.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quo accusamus rem ipsam dignissimos, mollitia reiciendis eligendi nihil dolore laborum, provident placeat ipsum itaque eius magni consequuntur obcaecati quidem exercitationem.
+    </p>
+
+    <a href ="http://google.com"> Ir a otro sitio web</a> <!--hipervinculo-->
+
+    <p>
+        Esta es la etiqueta de <strong> strong o negritas</strong><br><!--salto de texto br--> y esta es la etiqueta de <em> enfasis o itálica</em>
+    </p>
+
+    <h2> Lista ordenada</h2>
+    <ol>
+        <li>Despertar</li>
+        <li>Lavarme los dientes</li>
+        <li>Hacer café</li>
+        <li>Despertar</li>
+    </ol>
+
+    <h2>Lista Desordenada</h2>
+    <ul>
+        <li>Leer</li>
+        <li>Jugar videojuegos</li>
+        <li>Hacer ejercicios</li>
+        <li>zzz</li>
+        <li>zzz</li>
+    </ul>
+
+    <h2>Tabla</h2>
+    <table>
+        <thead><!--encabezado de tabla-->
+            <tr>
+                <th>Encabezado 1</th><!--celda del encabezado-->
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>    
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Columna 1.1</td>
+                <td>Columna 1.2</td>
+                <td>Columna 1.3</td>
+            </tr>
+            <tr>
+                <td>Columna 2.1</td>
+                <td>Columna 2.2</td>
+                <td>Columna 2.3</td>
+            </tr>
+        </tbody>    
+    </table>
+
+    <img src="img/chopper.jpg" alt="chopper">
+
+    <div><!--apartar espacios--> </div>
+
+    <form action="/url-a-la-que-mandamos" method="post">
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="nombre" maxlength="5">
+            <input type="number"name="numero">
+            <input type="password"name="contra ">
+            <input type="date"name="fecha">
+            <input type="email"name="correo" placeholder="name@gmail.com">
+        </div>
+        <div>
+            <input type="radio"name="estado_civil"value="casados"id="id_casado">
+            <label for="id_casado">Casado</label><br>
+            <input type="radio"name="estado_civil" value="soltero" id="id_soltero">
+            <label for="id_soltero">Soltero</label>
+        </div>
+        <div>
+            <input type="checkbox"name="terminos_condiciones" id="terminos">
+            <label for="terminos">Acepto Terminos y Condiciones<a href=www.google.com>Ver</a></label>
+        </div>
+        <div>
+            <textarea name="comentario" cols="15" rows="10"></textarea>
+        </div>
+        <div>
+            <select name="comida" id="">
+                <option>Pizza</option>
+                <option>Sushi</option>
+                <option>Lasaña</option>
+                <option>Pollo Frito</option>
+                <option>Tacos</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar Formulario">
+        </div>
+
+    </form>
+</body>
+</html>
+
