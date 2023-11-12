@@ -137,7 +137,7 @@ textarea {
     
 }
 
-/*MODELO DE CAJA tercera grabación*/
+/*MODELO DE CAJA tercera grabación 26 oct*/
 #box_model {
     background-color: rebeccapurple;
     width: 100px;
@@ -176,7 +176,7 @@ textarea {
     width: 300px;
     height: 100px;
     border: 1px solid black;
-    vertical-align: middle; /*top, bottom, middle*/
+    vertical-align: middle; /*top, bottom, middle (alineacion de los bloques)*/
 }
 
 #div1 {
@@ -189,4 +189,16 @@ textarea {
 
 #div3 {
     height: 150px;
+}
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
 }
